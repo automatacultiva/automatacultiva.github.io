@@ -10,7 +10,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <PageTemplate title="About - Collosal">
+    <PageTemplate title="About - AutomataCultiva">
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
@@ -30,8 +30,8 @@ const About = () => {
         >
           <PageSentence
             badge="ABOUT"
-            title="We are creative, smart and hardworking people"
-            description={`Several creative people gather in the same place - that's Collosal. We collaborate to produce the best results, loved by clients and comfortable for users. Here we maintain togetherness even though with different backgrounds, all the people here are already experts in their respective fields.`}
+            title="We are creative, smart and hardworking nerds"
+            description={`We are two shmucks who built a gadget it a garage. Stop by to check it out and have some YAG BOMBS washed down with keystone light`}
           />
         </aside>
       </section>
@@ -43,7 +43,7 @@ const About = () => {
         >
           <SectionSentence
             badge="STATISTICS"
-            title="In 3 years we reached 8 countries, 193 clients and earning $100k USD"
+            title="In 1 year, we went from smack talking MyGardyn, to spending thousands of dollars on a rude goldberg plant creating machine!"
           />
         </div>
         <div className="w-full grid gap-14">
@@ -67,43 +67,15 @@ const About = () => {
           <div data-aos="fade-up">
             <TeamCard
               imageSrc="/images/team-1.webp"
-              job="Founder"
-              name="Albert Flores"
+              job="Chief Plants Officer"
+              name="Been Cotlairik"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
               imageSrc="/images/team-2.webp"
               job="Chief Technology Officer"
-              name="Devon Lane"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-3.webp"
-              job="UI Designer"
-              name="Darrell Steward"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-4.webp"
-              job="Software Engineer"
-              name="Marvin McKinney"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-5.webp"
-              job="System Analyst"
-              name="Floyd Miles"
-            />
-          </div>
-          <div data-aos="fade-up">
-            <TeamCard
-              imageSrc="/images/team-6.webp"
-              job="Project Manager"
-              name="Annette Black"
+              name="Krag Patso"
             />
           </div>
         </div>

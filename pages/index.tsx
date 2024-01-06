@@ -11,6 +11,8 @@ import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
 import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
+import HowWeWork from './how-we-work'
+import About from './about'
 const Home = () => {
   return (
     <>
@@ -209,4 +211,5 @@ const Home = () => {
   )
 }
 
-export default Home
+export default About
+// export default Home
