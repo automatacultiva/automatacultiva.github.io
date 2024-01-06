@@ -44,8 +44,9 @@ jobs:
       #     restore-keys: |
       #       ${{ runner.os }}-yarn-
 
+# --frozen-lockfile
       - name: Install 🔧
-        run: yarn install --frozen-lockfile
+        run: yarn install
       
       - name: Build 🏗️
         run: |
