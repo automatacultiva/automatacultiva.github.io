@@ -22,17 +22,17 @@ const Contact = () => {
             <div className="space-y-6">
               <IconListItem
                 label="Phone"
-                value="+62 1234 8921"
+                value="coming soon"
                 icon={<FiPhoneCall />}
               />
               <IconListItem
                 label="Email"
-                value="support@collosal.tld"
+                value="owner@automatacultiva.com"
                 icon={<FiMail />}
               />
             </div>
           </aside>
-          <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full lg:flex lg:justify-end" data-aos="fade-down-left">
+          {/* <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full lg:flex lg:justify-end" data-aos="fade-down-left">
             <div className="grid grid-cols-1 gap-7 p-6 md:p-9 bg-light rounded-md lg:w-10/12 ">
               <div className="grid grid-cols-2 gap-4">
                 <InputGroup label="Name" />
@@ -42,7 +42,7 @@ const Contact = () => {
               <TextAreaGroup label="Message" />
               <Button value="Send Message" />
             </div>
-          </aside>
+          </aside> */}
         </section>
       </PageTemplate>
     </>
