@@ -230,6 +230,22 @@ const Welcome = () => {
       </section> */}
       {/* <LineDivider /> */}
       <section className="grid place-items-center gap-16">
+        <div className="w-fit h-fit">
+          <Image
+            style={{
+              borderRadius: '50%',
+              overflow: 'hidden',
+            }}
+            src={'/images/logo-without-stamp.png'}
+            width="300"
+            height={20}
+            alt="company brand"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section className="grid place-items-center gap-16">
         <div
           className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
           data-aos="zoom-in-up">

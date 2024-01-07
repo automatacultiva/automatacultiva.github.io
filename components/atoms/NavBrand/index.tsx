@@ -14,7 +14,11 @@ const NavBrand = () => {
         <Link href={'/'} passHref>
           <div className="w-fit h-fit">
             <Image
-              src={'/images/cropped-logo.png'}
+              style={{
+                borderRadius: '50%',
+                overflow: 'hidden',
+              }}
+              src={'/images/logo-without-stamp.png'}
               width="40"
               height={20}
               alt="company brand"
