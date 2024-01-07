@@ -3,7 +3,6 @@ import 'yet-another-react-lightbox/styles.css';
 import 'yet-another-react-lightbox/plugins/captions.css';
 
 import TeamCard from 'components/molecules/Card/TeamCard';
-import RigCard from 'components/molecules/Card/RigCard';
 import PageSentence from 'components/molecules/PageSentence';
 import SectionSentence from 'components/molecules/SectionSentence';
 import LogoList from 'components/organisms/LogoList';
